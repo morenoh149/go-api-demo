@@ -1,0 +1,5 @@
+debug: true
+secret_key: 'JeFvgCrMuvkoAJjkHgyaMDxku'
+
+pgx:
+  dsn: postgres://localhost:5432/harry_moreno_go_api_demo?sslmode=disable
