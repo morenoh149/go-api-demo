@@ -10,12 +10,17 @@ This project demonstrates a small go api with the following features:
 
 ## api
 
+* GET /
+* GET /signup
+* GET /login
 * POST /signup
 * POST /login
-* Get /users
-* PUT /users
-* GET /api/orgs
-* GET /api/users
+* GET /api/organization
+* POST /api/organization
+* GET /api/organization/:id
+* GET /api/user
+* POST /api/user
+* GET /api/user/:id
 
 ## running
 
