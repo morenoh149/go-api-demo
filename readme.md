@@ -8,6 +8,8 @@ This project demonstrates a small go api with the following features:
 * postgres database
 * jwt authorization
 
+Based on https://github.com/go-bun/bun-realworld-app
+
 ## api
 
 * GET /
