@@ -17,12 +17,12 @@ Based on https://github.com/go-bun/bun-realworld-app
 * GET /login
 * POST /signup
 * POST /login
-* GET /api/organization
-* POST /api/organization
-* GET /api/organization/:id
-* GET /api/user
-* POST /api/user
-* GET /api/user/:id
+* GET /organization
+* POST /organization
+* GET /organization/:id
+* GET /user
+* POST /user
+* GET /user/:id
 
 ## running
 

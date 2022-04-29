@@ -14,6 +14,10 @@ func init() {
 		articleHandler := NewArticleHandler(app)
 		commentHandler := NewCommentHandler(app)
 
+		router := app.Router()
+		welcomeHandler := NewWelcomeHandler(app)
+		router.GET("/", welcomeHandler.Welcome)
+
 		g := app.APIRouter().WithMiddleware(middleware.User)
 
 		g.GET("/tags/", tagHandler.List)
